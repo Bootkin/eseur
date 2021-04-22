@@ -138,6 +138,7 @@ export const HeaderBlock = (props: IHeaderBlockProps) => {
     const anchorRefSix = React.createRef();
 
     const handleToggle = (nameOfTag: string) => {
+        handleClose();
         if (nameOfTag === tabList[0].title) {
             setOpenOne(true);
         } else if (nameOfTag === tabList[1].title) {
