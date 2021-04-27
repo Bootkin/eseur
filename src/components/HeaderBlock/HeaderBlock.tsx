@@ -220,7 +220,7 @@ export const HeaderBlock = (props: IHeaderBlockProps) => {
                 item
                 className={classes.gridBox}
                 xs={2}
-                >
+            >
                 <div
                     id={`name_of_tab_${tabItem.title}`}
                     className={classes.menuItem}
